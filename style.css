@@ -1,0 +1,180 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    font-family: 'open sans', Arial, sans-serif;
+    background-color: white;
+    height: 40px;
+}
+.header.menu{
+    float: right;
+    height: 20px;
+    padding: 12px 50px 0px 0px;
+}
+.header.menu li{
+    display: inline;
+    text-decoration: none;
+    padding-right: 30px;
+    letter-spacing: 1.5px;
+}
+.header.menu a{
+    text-decoration: none;
+    color: purple;
+}
+.header.menu a:hover{
+    color: red;
+}
+.content.over{
+    height: 639px;
+    max-width: 100%;
+    background: url(makeover.jpg) no-repeat center center;
+    background-size: 100%;
+    background-position-y: -170px;
+    background-position-x: 50px;
+}
+.makeover{
+    height: 8rem;
+    max-width: 1000px;
+    padding: 90px 0px 0px 60px;
+    color: purple;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 75px;
+}
+.store-grid{
+    background-color: #edf0f2;
+    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1fr;
+}
+.store{
+    background-color: white;
+    color: black;
+    margin: 30px;
+}
+.store-span{
+    margin: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.store-span p{
+    padding-top: 15px;
+}
+.store-image{
+    width: 100%;
+    max-height: 200px;
+}
+.login{
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.login-makeover{
+    color:white;    
+    font-size: 55px;
+    padding-top: 50px;
+}
+.form{
+    text-align: left;
+    padding-left: 545px;
+}
+.form.signup{
+    text-align: left;
+    padding-left: 470px;
+}
+.footer.login{
+    padding-bottom: 50px;
+    font-size: 20px;
+}
+#login-form{
+    font-size: 22px;
+    color: white;
+    padding: 90px 0px 15px 0px;
+}
+input{
+    background-color: black;   
+    color: white;
+    font-size: 15px;
+    width: 400px;
+    height: 30px;
+    padding-left: 10px;
+    margin-top: 10px;
+    border-width: 1px;
+    border-radius: 30px;
+}
+input:hover{
+    border-color: purple;
+}
+.submit{
+    margin-top: 30px;
+    width: 415px;
+    color: white;
+    background-color: purple;
+    border: none;
+    height: 35px;
+    border-radius: 30px;
+}
+.submit.signup{
+    margin-top: 30px;
+    width: 200px;
+    color: white;
+    background-color: purple;
+    border: none;
+    height: 35px;
+    border-radius: 30px;
+    margin-bottom: 90px;
+}
+.bar{
+    flex: auto;
+    border: none;
+    height: 1px;
+    background-color: #aaa;
+    width: 150px;
+    display: inline-block;
+}
+.or{
+    color: white;
+    padding: 50px 0px;
+}
+span{
+    padding: 0px 12px;
+}
+.rec-pass{
+    color: white;
+    text-decoration: none;
+}
+.signup-link{
+    background-color: white; 
+    width: 200px;
+    height: 32px;
+    margin: 0px 0px 200px 650px;
+    border-radius: 30px;
+    padding-top: 10px;
+}
+.signup-link a{
+    text-decoration: none;
+    color: purple;
+}
+.footer{
+    height: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 1px;
+    padding-top: 10px;
+}
+.footer-menu{
+    color: purple;
+}
+.footer-menu:hover{
+    color: white;
+}
+
+
+
+
