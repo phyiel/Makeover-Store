@@ -143,6 +143,9 @@ input:hover{
 span{
     padding: 0px 12px;
 }
+p{
+    display: inline-block:
+}
 .rec-pass{
     color: white;
     text-decoration: none;
